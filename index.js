@@ -77,7 +77,7 @@ function slett() {
 function slett1() {
   let result = confirm("ønsker du å slette vare");
   if (result) {
-    harListen.slice(-1, 1);
+    harListen.splice(-1, 1);
     document.getElementById("utListe").innerHTML = "";
     harListe();
   }
