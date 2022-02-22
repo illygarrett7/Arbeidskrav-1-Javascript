@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="/index.js"></script>
+    <title>Handleliste</title>
+  </head>
+  <body>
+    <h1>Handleliste</h1>
+
+    <div>
+      <h2>Har:</h2>
+      item : <input id="harProdukt" />
+      <button onclick="harListe()">Legg til</button>
+      <button onclick="slett1()">slett</button>
+      <div id="utListe"></div>
+    </div>
+
+    <div>
+      <h2>Går tom :</h2>
+      item : <input id="tomProdukt" />
+      <button onclick="garTomListe()">Legg til</button>
+      <button onclick="slett2()">slett</button>
+      <div id="utProdukt"></div>
+    </div>
+
+    <div>
+      <h2>Må kjøpe:</h2>
+      prdukt : <input id="produkt" /><br />
+      pris : <input id="pris" />
+      <button onclick="kjop()">Legg til</button>
+      <button onclick="slett()">slett</button>
+    </div>
+    <div id="totalbelop"></div>
+  </body>
+</html>
