@@ -4,35 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="text/javascript" src="/index.js"></script>
+    <link rel="stylesheet" href="./style.css" />
     <title>Handleliste</title>
   </head>
   <body>
-    <h1>Handleliste</h1>
+    <script type="text/javascript" src="/index.js"></script>
 
-    <div>
-      <h2>Har:</h2>
-      item : <input id="harProdukt" />
-      <button onclick="harListe()">Legg til</button>
-      <button onclick="slett1()">slett</button>
-      <div id="utListe"></div>
-    </div>
+    <header>
+      <h1>Handleliste</h1>
+      <div class="overskrift_innhold">
+        <p class="velkommen">
+          Hei! Og velkommen til min side som vil gjøre hverdagen din enklere.
+        </p>
+      </div>
 
-    <div>
-      <h2>Går tom :</h2>
-      item : <input id="tomProdukt" />
-      <button onclick="garTomListe()">Legg til</button>
-      <button onclick="slett2()">slett</button>
-      <div id="utProdukt"></div>
-    </div>
+      <div class="innhold">
+        <p class="info">
+          Handlelisten er oversiktlig, og du kan legge til det du mangler før
+          handleturen.
+        </p>
+      </div>
+    </header>
 
-    <div>
-      <h2>Må kjøpe:</h2>
-      prdukt : <input id="produkt" /><br />
-      pris : <input id="pris" />
-      <button onclick="kjop()">Legg til</button>
-      <button onclick="slett()">slett</button>
-    </div>
-    <div id="totalbelop"></div>
+    
+      <div class="container">
+        <h2>Har:</h2>
+        Vare: <input id="harProdukt" />
+        <button onclick="harListe()">Legg til</button>
+        <button onclick="slett1()">slett</button>
+        <div id="utListe"></div>
+      
+
+      
+        <h2>Går tom :</h2>
+        Vare : <input id="tomProdukt" />
+        <button onclick="garTomListe()">Legg til</button>
+        <button onclick="slett2()">slett</button>
+        <div id="utProdukt"></div>
+      
+
+      
+        <h2>Må kjøpe:</h2>
+        Prdukt : <input id="produkt" /><br />
+        Pris : <input id="pris" />
+        <button onclick="kjop()">Legg til</button>
+        <button onclick="slett()">slett</button>
+      </div>
+      <div id="totalbelop"></div>
+      </div>
+    
   </body>
 </html>

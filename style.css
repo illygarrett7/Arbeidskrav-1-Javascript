@@ -1,0 +1,42 @@
+body {
+  background-repeat: no-repeat;
+  background-image: url(./forside.jpg);
+  background-color: #000000;
+  background-size: cover;
+}
+.container {
+  font-size: 20px;
+}
+.overskrift_innhold {
+  height: auto;
+  margin: auto;
+  color: #000000;
+}
+.innhold {
+  margin: auto;
+  padding: 5px;
+  color: #000000;
+}
+
+.info {
+  font-size: 20px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.velkommen {
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
